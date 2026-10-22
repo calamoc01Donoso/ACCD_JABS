@@ -47,7 +47,7 @@ public class Libreria {
     }
 
     public void setListaLibro(ArrayList<Libro> listaLibro) {
-        this.listaLibro = listaLibro;
+        this.listaLibro = listaLibro;pas
     }
 }
 
