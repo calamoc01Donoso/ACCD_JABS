@@ -34,10 +34,10 @@ public class Ejemplo1_JAXB {
         milibreria.setLugar("Talavera, como no");
         milibreria.setListaLibro(libroLista);
 
-        // Creamos el contexto indicando la clase raiz
+    
         JAXBContext context = JAXBContext.newInstance(Libreria.class);
 
-        //Creamos el Marshaller, convierte el java bean en una cadena XML
+        //Creamos el Marshaller
         Marshaller m = context.createMarshaller();
 
         //Formateamos el xml para que quede bien
